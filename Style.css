@@ -1,0 +1,38 @@
+body,
+p {
+  font-family: Ariel;
+  font-size: 24px;
+    color:snow;
+}
+body {
+  background-color: dimgray;
+}
+    
+.parallax{
+    background: url('../media/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+
+.image{
+    float: left;
+    padding-right: 50px
+}
+.listing{
+         display: inline-block;
+         text-align: left;
+        padding-top: 50px;
+}
+.listing .info {
+    width: 500px;
+    float: left;
+    padding-left: 50px;
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
